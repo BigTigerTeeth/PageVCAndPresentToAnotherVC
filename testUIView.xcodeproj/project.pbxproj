@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762B46861DA0BDD90082A042 /* UIViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B46851DA0BDD90082A042 /* UIViewController2.swift */; };
+		762B46881DA0F8E20082A042 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 762B46871DA0F8E20082A042 /* imgres.jpg */; };
+		762B468A1DA0FEC30082A042 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B46891DA0FEC30082A042 /* PageViewController.swift */; };
 		766740621DA0997C0022766B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766740611DA0997C0022766B /* AppDelegate.swift */; };
 		766740641DA0997C0022766B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766740631DA0997C0022766B /* ViewController.swift */; };
 		766740671DA0997C0022766B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766740651DA0997C0022766B /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		7667406C1DA0997C0022766B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7667406A1DA0997C0022766B /* LaunchScreen.storyboard */; };
 		766740771DA0997D0022766B /* testUIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766740761DA0997D0022766B /* testUIViewTests.swift */; };
 		766740821DA0997E0022766B /* testUIViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766740811DA0997E0022766B /* testUIViewUITests.swift */; };
+		766740911DA0A5C70022766B /* 字体管家双鱼座.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766740901DA0A5C70022766B /* 字体管家双鱼座.ttf */; };
+		766740931DA0A8220022766B /* 苹方 细体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766740921DA0A8220022766B /* 苹方 细体.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		762B46851DA0BDD90082A042 /* UIViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController2.swift; sourceTree = "<group>"; };
+		762B46871DA0F8E20082A042 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		762B46891DA0FEC30082A042 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		762B468B1DA117730082A042 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		7667405E1DA0997B0022766B /* testUIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766740611DA0997C0022766B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		766740631DA0997C0022766B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,8 @@
 		7667407D1DA0997E0022766B /* testUIViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766740811DA0997E0022766B /* testUIViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIViewUITests.swift; sourceTree = "<group>"; };
 		766740831DA0997E0022766B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766740901DA0A5C70022766B /* 字体管家双鱼座.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "字体管家双鱼座.ttf"; sourceTree = "<group>"; };
+		766740921DA0A8220022766B /* 苹方 细体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "苹方 细体.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +108,18 @@
 		766740601DA0997C0022766B /* testUIView */ = {
 			isa = PBXGroup;
 			children = (
+				766740921DA0A8220022766B /* 苹方 细体.ttf */,
+				766740901DA0A5C70022766B /* 字体管家双鱼座.ttf */,
 				766740611DA0997C0022766B /* AppDelegate.swift */,
 				766740631DA0997C0022766B /* ViewController.swift */,
 				766740651DA0997C0022766B /* Main.storyboard */,
 				766740681DA0997C0022766B /* Assets.xcassets */,
+				762B46871DA0F8E20082A042 /* imgres.jpg */,
 				7667406A1DA0997C0022766B /* LaunchScreen.storyboard */,
 				7667406D1DA0997C0022766B /* Info.plist */,
+				762B46851DA0BDD90082A042 /* UIViewController2.swift */,
+				762B46891DA0FEC30082A042 /* PageViewController.swift */,
+				762B468B1DA117730082A042 /* MyPlayground.playground */,
 			);
 			path = testUIView;
 			sourceTree = "<group>";
@@ -231,7 +248,10 @@
 			files = (
 				7667406C1DA0997C0022766B /* LaunchScreen.storyboard in Resources */,
 				766740691DA0997C0022766B /* Assets.xcassets in Resources */,
+				762B46881DA0F8E20082A042 /* imgres.jpg in Resources */,
 				766740671DA0997C0022766B /* Main.storyboard in Resources */,
+				766740931DA0A8220022766B /* 苹方 细体.ttf in Resources */,
+				766740911DA0A5C70022766B /* 字体管家双鱼座.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +278,8 @@
 			files = (
 				766740641DA0997C0022766B /* ViewController.swift in Sources */,
 				766740621DA0997C0022766B /* AppDelegate.swift in Sources */,
+				762B46861DA0BDD90082A042 /* UIViewController2.swift in Sources */,
+				762B468A1DA0FEC30082A042 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +506,7 @@
 				766740881DA0997E0022766B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766740891DA0997E0022766B /* Build configuration list for PBXNativeTarget "testUIViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +515,7 @@
 				7667408B1DA0997E0022766B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7667408C1DA0997E0022766B /* Build configuration list for PBXNativeTarget "testUIViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +524,7 @@
 				7667408E1DA0997E0022766B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
